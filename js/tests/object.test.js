@@ -2,7 +2,7 @@ describe("myFunction", function() {
     var myfunc = NS.myFunction;
 
     beforeEach(function(){
-        spyOn(myfunc, 'init').andCallThrough();
+        spyOn(myfunc, 'init').and.callThrough()
     });
 
     afterEach(function() {
